@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.carousel-image {
+    background-size: cover;
+    height: 626px;
+    width: 1250px;
+    color: white;
+}
+
+.carousel-heading {
+    letter-spacing: 16px;
+    font-family: "Heebo";
+    font-size: 60px;
+}
+
+.carousel-desc {
+    font-size: 24px;
+    font-family: "Heebo";
+}
+
+.carousel-date {
+    letter-spacing: 6px;
+    font-size: 20px;
+    font-family: "Heebo";
+}
+
+.image1 {
+    background-image: url("https://img.freepik.com/free-photo/woman-touches-tender-pearl-necklace-her-neck_8353-8844.jpg?w=1480&t=st=1676743228~exp=1676743828~hmac=751cf5a05fd7cb57c8d2b05c15d03aefd9285dbcbc835de774783badd88e9f09");
+}
+
+.image2 {
+    background-image: url("https://img.freepik.com/free-photo/bride-with-red-hair-kisses-groom-standing-veil_8353-8895.jpg?w=1380&t=st=1676743932~exp=1676744532~hmac=5c20078aeb1c0045182a54c419885c1feb9bdfefc66da5de464c27e910a1fd2c");
+}
+
+.image3 {
+    background-image: url("https://img.freepik.com/free-photo/charming-bride-with-perfect-skin-touches-her-earring-tender_8353-8878.jpg?w=1380&t=st=1676743368~exp=1676743968~hmac=05726daeded3657f3ce960f64501132387b3c0544c32be11e776ca98cb904b95");
+}
+
+.body {
+    background-color: #FAF7F0;
+}
+
+.nav-items {
+    color: #2B2024;
+    font-family: "Old Standard TT";
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.nav-logo {
+    font-size: 31px;
+    font-family: "Old Standard TT";
+    font-weight: 700;
+    color: #2B2024;
+}
+
+.nav-container {
+    height: 124px;
+    background-color: #FAF7F0;
+}
+
+.contact {
+    background-color: #523C1E;
+    width: 130px;
+    text-align: center;
+}
+
+.carousel-container {
+    background-color: #FAF7F0;
+}
+
+.category-main-heading {
+    color: #2B2024;
+    font-size: 50px;
+    font-family: "Old Standard TT";
+    font-weight: 400;
+}
+
+.category-selection {
+    text-decoration: none;
+    color: #2B2024;
+    font-size: 24px;
+    font-family: "Roboto";
+    letter-spacing: 2px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.line {
+    color: #2B2024;
+    border-color: #2B2024;
+    border-width: 3px;
+    width: 150px;
+}
+
+.category-contaier {
+    background-color: #FAF7F0;
+}
+
+.category1 {
+    border-bottom: solid;
+    border-color: transparent;
+    transition: border-color 0.5s;
+}
+
+.category1:hover {
+    border-color: #2B2024;
+}
+
+.category2 {
+    border-bottom: solid;
+    border-color: transparent;
+    transition: border-color 0.5s;
+}
+
+.category2:hover {
+    border-color: #2B2024;
+}
+
+.category3 {
+    border-bottom: solid;
+    border-color: transparent;
+    transition: border-color 0.5s;
+}
+
+.category3:hover {
+    border-color: #2B2024;
+}
+
+.category4 {
+    border-bottom: solid;
+    border-color: transparent;
+    transition: border-color 0.5s;
+}
+
+.category4:hover {
+    border-color: #2B2024;
+}
+
+.category5 {
+    border-bottom: solid;
+    border-color: transparent;
+    transition: border-color 0.5s;
+}
+
+.category5:hover {
+    border-color: #2B2024;
+}
+
+.ring-heading {
+    color: #2B2024;
+    font-size: 32px;
+    font-family: "Old Standard TT";
+    font-weight: 700;
+}
+
+.ring-price {
+    color: #2B2024;
+    font-size: 28px;
+    font-family: "Heebo";
+    font-weight: 500;
+}
+
+.services-heading {
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.services-desc {
+    font-size: 22px;
+    font-weight: 400;
+    font-family: "Heebo";
+    color: #2B2024;
+}
+
+.services-button {
+    background-color: #523C1E;
+    width: 155px;
+    height: 46px;
+    color: #FAF7F0;
+    font-size: 18px;
+    font-weight: 400;
+    border-style: none;
+    font-family: "Old Standard TT";
+}
+
+.design-bg {
+    background-color: #2B2024;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.design-button {
+    width: 218px;
+    background-color: #FAF7F0;
+    color: #2B2024;
+}
+
+.design-font {
+    color: #FAF7F0;
+}
+
+.connect-heading {
+    width: 345px;
+    height: 124px;
+}
+.connect-us-container {
+    background-color: #FAF7F0;
+}
+.insta-button {
+    margin-top: 60px;
+    margin-bottom: 90px;
+}
+
+.footer-heading {
+    font-family: "Playfair Display";
+    font-size: 31px;
+    font-weight: 700;
+    color: #2B2024;
+}
+
+.footer-desc {
+    font-family: "Heebo";
+    font-size: 20px;
+    font-weight: 400;
+    color: #2B2024;
+}
+
+.footer-list {
+    text-decoration: none;
+    list-style-type: none;
+    padding-left: 0px;
+}
