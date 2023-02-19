@@ -40,7 +40,7 @@
     background-color: #FAF7F0;
 }
 
-.nav-items {
+#nav-items {
     color: #2B2024;
     font-family: "Old Standard TT";
     font-size: 18px;
@@ -55,7 +55,7 @@
 }
 
 .nav-container {
-    height: 124px;
+    min-height: 124px;
     background-color: #FAF7F0;
 }
 
@@ -92,61 +92,23 @@
 .line {
     color: #2B2024;
     border-color: #2B2024;
-    border-width: 3px;
-    width: 150px;
+    border-width: 4px;
+    width: 180px;
+    margin-top: -20px;
 }
 
 .category-contaier {
     background-color: #FAF7F0;
 }
 
-.category1 {
+.category {
     border-bottom: solid;
     border-color: transparent;
     transition: border-color 0.5s;
+    padding-bottom: 30px;
 }
 
-.category1:hover {
-    border-color: #2B2024;
-}
-
-.category2 {
-    border-bottom: solid;
-    border-color: transparent;
-    transition: border-color 0.5s;
-}
-
-.category2:hover {
-    border-color: #2B2024;
-}
-
-.category3 {
-    border-bottom: solid;
-    border-color: transparent;
-    transition: border-color 0.5s;
-}
-
-.category3:hover {
-    border-color: #2B2024;
-}
-
-.category4 {
-    border-bottom: solid;
-    border-color: transparent;
-    transition: border-color 0.5s;
-}
-
-.category4:hover {
-    border-color: #2B2024;
-}
-
-.category5 {
-    border-bottom: solid;
-    border-color: transparent;
-    transition: border-color 0.5s;
-}
-
-.category5:hover {
+.category:hover {
     border-color: #2B2024;
 }
 
@@ -207,9 +169,7 @@
     width: 345px;
     height: 124px;
 }
-.connect-us-container {
-    background-color: #FAF7F0;
-}
+
 .insta-button {
     margin-top: 60px;
     margin-bottom: 90px;
@@ -224,13 +184,13 @@
 
 .footer-desc {
     font-family: "Heebo";
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 400;
     color: #2B2024;
+    text-decoration: none;
 }
 
 .footer-list {
-    text-decoration: none;
     list-style-type: none;
     padding-left: 0px;
 }
