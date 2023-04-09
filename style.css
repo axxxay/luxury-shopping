@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+* {
+    scroll-behavior:smooth;
+}
+.carousel-image {
+    background-size: cover;
+    min-height: 626px;
+    width: 1250px;
+    color: white;
+    background-position: center;
+    position: relative;
+    animation: slideShow 8s infinite;
+}
+.carousel-image:nth-child(2n) {
+    animation-delay: 6s;
+    background-image: url("https://res.cloudinary.com/jsbsbsbskznznz/image/upload/v1676709978/Banner-2_cxnfaw.jpg");
+}
+.category-image {
+    width: 100%
+}
+
+.carousel-heading {
+    letter-spacing: 16px;
+    font-family: "Heebo";
+    font-size: 60px;
+}
+
+.carousel-desc {
+    font-size: 24px;
+    font-family: "Heebo";
+}
+
+.carousel-date {
+    letter-spacing: 6px;
+    font-size: 20px;
+    font-family: "Heebo";
+}
+
+.image1 {
+    background-image: url("https://i.ibb.co/12zPdNp/woman-touches-tender-pearl-necklace-her-neck-8353-8844.jpg");
+}
+
+.image2 {
+    background-image: url("https://i.ibb.co/8cZTzM5/bride-with-red-hair-kisses-groom-standing-veil-8353-8895.jpg");
+}
+
+.image3 {
+    background-image: url("https://i.ibb.co/rsVdz3P/charming-bride-with-perfect-skin-touches-her-earring-tender-8353-8878.jpg");
+}
+
+.body {
+    background-color: #FAF7F0;
+}
+
+#nav-items {
+    color: #2B2024;
+    font-family: "Old Standard TT";
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.nav-logo {
+    font-size: 31px;
+    font-family: "Old Standard TT";
+    font-weight: 700;
+    color: #2B2024;
+}
+
+.nav-container {
+    min-height: 124px;
+    background-color: #FAF7F0;
+}
+.extra-size {
+    min-height: 124px;
+    background-color: transparent;
+}
+.contact {
+    background-color: #523C1E;
+    width: 130px;
+    text-align: center;
+}
+
+.carousel-container {
+    background-color: #FAF7F0;
+}
+
+.category-main-heading {
+    color: #2B2024;
+    font-size: 50px;
+    font-family: "Old Standard TT";
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.category-selection {
+    text-decoration: none;
+    color: #2B2024;
+    font-size: 24px;
+    font-family: "Roboto";
+    letter-spacing: 2px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.line {
+    color: #2B2024;
+    border-color: #2B2024;
+    border-width: 4px;
+    width: 180px;
+    margin-top: -20px;
+}
+
+.category-contaier {
+    background-color: #FAF7F0;
+}
+
+.category {
+    border-bottom: solid;
+    border-color: transparent;
+    transition: border-color 0.5s;
+    padding-bottom: 30px;
+    cursor: pointer;
+}
+
+.category:hover {
+    border-color: #2B2024;
+}
+
+.animation {
+    transition: all .8s ease-in-out;
+}
+
+.ring-heading {
+    color: #2B2024;
+    font-size: 32px;
+    font-family: "Old Standard TT";
+    font-weight: 700;
+}
+
+.ring-price {
+    color: #2B2024;
+    font-size: 28px;
+    font-family: "Heebo";
+    font-weight: 500;
+}
+
+.services-heading {
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.services-desc {
+    font-size: 22px;
+    font-weight: 400;
+    font-family: "Heebo";
+    color: #2B2024;
+}
+
+.services-button {
+    background-color: #523C1E;
+    width: 155px;
+    height: 46px;
+    color: #FAF7F0;
+    font-size: 18px;
+    font-weight: 400;
+    border-style: none;
+    font-family: "Old Standard TT";
+    outline: none !important;
+    box-shadow: 3px 3px 6px #636363;
+}
+
+.design-bg {
+    background-color: #2B2024;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.design-button {
+    width: 218px;
+    background-color: #FAF7F0;
+    color: #2B2024;
+}
+
+.design-font {
+    color: #FAF7F0;
+}
+
+.connect-heading {
+    width: 345px;
+    height: 124px;
+}
+
+.insta-button {
+    margin-top: 60px;
+    margin-bottom: 90px;
+}
+
+.footer-heading {
+    font-family: "Playfair Display";
+    font-size: 31px;
+    font-weight: 700;
+    color: #2B2024;
+}
+
+.footer-desc {
+    font-family: "Heebo";
+    font-size: 18px;
+    font-weight: 400;
+    color: #2B2024;
+    text-decoration: none;
+}
+
+.footer-list {
+    list-style-type: none;
+    padding-left: 0px;
+}
